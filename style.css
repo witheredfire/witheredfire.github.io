@@ -16,7 +16,7 @@ body{
   /*background-attachment: fixed;
   background-size: cover;
   background-image:url("../img/bg.jpg");*/
-  color: #ccddff;
+  color: #a61c2a;
 }
 
 .top {
@@ -27,7 +27,7 @@ body{
 
 a:link{
   text-decoration:  none;
-  color: #ccddff;
+  color: #871221;
 }
 
 a:hover{
@@ -37,7 +37,7 @@ a:hover{
 
 a:visited{
   text-decoration:  none;
-  color: #88aacc;
+  color: #a32727;
 }
 
 .rounded {
@@ -72,7 +72,7 @@ a:visited{
 
 .subtitle {
   font: 24px/0 Ailerons;
-  color: #ccddff;
+  color: #570e21;
 }
 
 .header2 {
