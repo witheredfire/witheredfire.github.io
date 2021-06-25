@@ -1,5 +1,5 @@
 # The Writer's Archives
 
-This is a website I built to make playing D&amp;D with my friends easier.
+<p align=center>This is a website I built to make playing D&amp;D with my friends easier.</p>
 
-https://witheredfire.github.io/main.html
+<p align=center>https://witheredfire.github.io/main.html</p>
