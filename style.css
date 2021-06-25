@@ -1,0 +1,540 @@
+@font-face {
+    font-family: Gidole;
+    src: url("../fonts/Gidole.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Ailerons;
+    src: url("../fonts/Ailerons.otf") format("opentype");
+}
+
+body{
+  font: 20px/1.5 Gidole, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #000022;
+  /*background-attachment: fixed;
+  background-size: cover;
+  background-image:url("../img/bg.jpg");*/
+  color: #ccddff;
+}
+
+.top {
+  width:95%;
+  margin:auto;
+  padding:5px;
+}
+
+a:link{
+  text-decoration:  none;
+  color: #ccddff;
+}
+
+a:hover{
+  text-decoration:  none;
+  color: #ffffff;
+}
+
+a:visited{
+  text-decoration:  none;
+  color: #88aacc;
+}
+
+.rounded {
+  border-radius: 5px;
+}
+
+.bg {
+  background-color: rgba(0, 0, 0, .33);
+  padding: 10px;
+  border-radius: 5px
+}
+
+.titleHeader {
+  font: 90px/1.5 Ailerons;
+  color: white;
+}
+
+.creditText {
+  font: 24px/1.5 Gidole;
+  color: #78176b;
+}
+
+.footer {
+  font: 16px/1.5 Gidole;
+  color: #ffffff;
+}
+
+.smallEvo {
+  font: 16px/1.4 Gidole;
+  color: #ccddff;
+}
+
+.subtitle {
+  font: 24px/0 Ailerons;
+  color: #ccddff;
+}
+
+.header2 {
+  font: 24px/1.2 Ailerons;
+  color: #ccddff;
+}
+
+.evo_gif {
+  width: 500;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+img {
+     max-width: 90%;
+}
+.title {
+    min-width: 320px;
+}
+
+
+
+
+
+
+/*mobile*/
+@media(max-width: 820px){
+
+    .parallax-window {
+  width:100%;
+    position: absolute;
+     z-index: -100;
+     height: 6000;
+}
+
+  .videoIFrame {
+      width: 100%;
+      height: 300px;
+    }
+
+
+.header {
+  font: 32px/2 Ailerons;
+  color: white;
+}
+
+.devblog {
+      font: 24px/1 Ailerons;
+      color: ccddff;
+    }
+
+    .directText {
+  font: 24/1.2 Ailerons;
+  color: ccddff;
+}
+
+    .row {
+      width: 80%;
+      margin: auto;
+      padding-bottom: 15px;
+    }
+
+
+    .thumb {
+      width: 49%;
+      float:left;
+      margin-right: 1%;
+    }
+
+    .video{
+      width: 80%;
+      height: 300;
+      margin: auto;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      overflow: hidden;
+    }
+
+    .direct{
+      width: 80%;
+      height: 300;
+      margin: auto;
+      margin-top: 2px;
+      margin-bottom: 2px;
+      overflow: hidden;
+    }
+
+    .linkL {
+      width: 85%;
+      margin: auto;
+      float: auto;
+      text-align: center;
+      padding-bottom: 5px;
+    }
+
+    .linkM {
+      width: 85%;
+      margin: auto;
+      float: auto;
+      text-align: center;
+      padding-bottom: 5px;
+    }
+
+    .linkR {
+      width: 85%;
+      margin: auto;
+      float: auto;
+      text-align: center;
+      padding-bottom: 5px;
+    }
+
+    .evo_header_desktop {
+      display:none
+    }
+
+    .evo_header_mobile {
+      width: 50%;
+      min-width: 300px;
+      margin: auto;
+      float: auto;
+      visibility:visible;
+      background-color: rgba(0, 0, 0, .33);
+      padding: 15px;
+      border-radius: 5px;
+    }
+
+    .callToAction {
+      font: 24px/0 Gidole;
+      color: #ccddff;
+    }
+
+    .credit {
+      width: 75%;
+      margin: auto;
+      float: auto;
+      text-align: center;
+      padding-bottom: 50px;
+      background-color: rgba(0, 0, 0, .33);
+      padding: 15px;
+      border-radius: 5px;
+    }
+
+    .evo {
+      width: 85%;
+      margin: auto;
+      padding-bottom: 15px;
+    }
+
+    .videoEvo {
+      width: 100%;
+      float: auto;
+      padding-right: 30px;
+    }
+
+    .textEvo {
+      width: 100%;
+      float: auto;
+    }
+
+    .linkLargeM {
+        width: 47%;
+        text-align: center;
+        float: left;
+        background-color: rgba(0, 0, 0, .66);
+        padding-top: 8px;
+        padding-bottom: 6px;
+        margin: 1%;
+        border-radius: 5px;
+      }
+
+      .linkSmallM {
+        width: 31%;
+        text-align: center;
+        float: left;
+        background-color: rgba(0, 0, 0, .66);
+        padding-top: 8px;
+        padding-bottom: 2px;
+        margin: 1%;
+        border-radius: 5px;
+      }
+
+      .linkLarge {
+        display: none;
+      }
+
+      .linkSmall {
+        display: none;
+      }
+
+      .linkLargeM2 {
+        width: 47%;
+        text-align: center;
+        float: left;
+        background-color: rgba(100, 0, 60, .50);
+        padding-top: 8px;
+        padding-bottom: 6px;
+        margin: 1%;
+        border-radius: 5px;
+      }
+
+      .linkSmallM2 {
+        width: 31%;
+        text-align: center;
+        float: left;
+        background-color: rgba(100, 0, 60, .50);
+        padding-top: 8px;
+        padding-bottom: 2px;
+        margin: 1%;
+        border-radius: 5px;
+      }
+
+      .linkLarge2 {
+        display: none;
+      }
+
+      .linkSmall2 {
+        display: none;
+      }
+
+      .headerDesktop {
+        display: none;
+      }
+
+.headerMobile {
+
+}
+
+.videoMain{
+      width: 85%;
+      margin: auto;
+      margin-top: -16%;
+      margin-bottom: 10px;
+      overflow: hidden;
+    }
+
+
+}
+
+/*desktop*/
+@media(min-width: 820px){
+
+   .parallax-window {
+  width:100%;
+    position: absolute;
+     z-index: -100;
+     height: 4500;
+}
+
+  .videoIFrame {
+      width: 100%;
+      height: 400px;
+    }
+
+  .title {
+  will-change: opacity;
+  mix-blend-mode: screen;
+  width: 66%;
+}
+
+.header {
+  font: 42px/2 Ailerons;
+  color: white;
+}
+
+.directText {
+  font: 36px/1.2 Ailerons;
+  color: ccddff;
+}
+
+.devblog {
+  font: 42px/1 Ailerons;
+  color: ccddff;
+}
+
+.headerDesktop {
+
+}
+
+.headerMobile {
+  display: none;
+}
+
+  .linkLargeM {
+        display: none;
+      }
+
+      .linkSmallM {
+        display: none;
+      }
+
+  .linkLarge {
+      width: 30%;
+      height: 50px;
+      text-align: center;
+      float: left;
+      background-color: rgba(0, 0, 0, .66);
+      padding-top: 12px;
+      padding-bottom: 6px;
+      margin: 1%;
+      border-radius: 5px;
+}
+
+.linkSmall {
+      width: 10%;
+      height: 50px;
+      text-align: center;
+      float: left;
+      background-color: rgba(0, 0, 0, .66);
+      padding-top: 12px;
+      padding-bottom: 6px;
+      margin: 1%;
+      border-radius: 5px;
+}
+
+.linkLargeM2 {
+        display: none;
+      }
+
+      .linkSmallM2 {
+        display: none;
+      }
+
+  .linkLarge2 {
+      width: 30%;
+      height: 50px;
+      text-align: center;
+      float: left;
+      background-color: rgba(100, 0, 60, .66);
+      padding-top: 12px;
+      padding-bottom: 6px;
+      margin: 1%;
+      border-radius: 5px;
+}
+
+.linkSmall2 {
+      width: 10%;
+      height: 50px;
+      text-align: center;
+      float: left;
+      background-color: rgba(100, 0, 60, .66);
+      padding-top: 12px;
+      padding-bottom: 6px;
+      margin: 1%;
+      border-radius: 5px;
+}
+
+    .row {
+      width: 55%;
+      margin: 10px;
+      padding-bottom: 5px;
+    }
+
+    .evo {
+      width: 70%;
+      margin: auto;
+      padding-bottom: 15px;
+    }
+
+    .videoEvo {
+      width: 42%;
+      float: left;
+      padding-right: 30px;
+    }
+
+    .textEvo {
+      width: 50%;
+      float: left;
+    }
+
+    .thumb {
+      width: 32%;
+      float:left;
+      margin-right: 1%;
+    }
+
+    .video{
+      min-width: 600px;
+      width: 55%;
+      margin: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      overflow: hidden;
+    }
+
+    .direct{
+      min-width: 600px;
+      width: 55%;
+      margin: auto;
+      margin-top: 20px;
+      overflow: hidden;
+    }
+
+     .videoMain{
+      min-width: 600px;
+      width: 55%;
+      margin: auto;
+      margin-top: -20%;
+      margin-bottom: 10px;
+      overflow: hidden;
+    }
+
+
+
+    .linkL {
+      width: 33%;
+      float: left;
+      text-align: left;
+      padding-bottom: 5px;
+    }
+
+    .linkM {
+      width: 33%;
+      margin: auto;
+      float: left;
+      text-align: center;
+      padding-bottom: 5px;
+    }
+
+    .linkR {
+      width: 33%;
+      float: left;
+      text-align: right;
+      padding-bottom: 5px;
+    }
+
+    .evo_header_desktop {
+      min-width: 320px;
+      width: 75%;
+      padding-top: 0px;
+      margin: 0px;
+      visibility:visible;
+    }
+
+    .evo_header_mobile {
+      display:none;
+    }
+
+    .callToAction {
+      font: 16px/0 Gidole;
+      color: #ccddff;
+    }
+
+    .credit {
+      width: 50%;
+      margin: auto;
+      float: left;
+      text-align: center;
+      padding-bottom: 50px;
+    }
+
+}
+
+/*mobile phone*/
+@media(max-width: 420px){
+    .header {
+      font: 24px/2 Ailerons;
+      color: white;
+    }
+
+    .devblog {
+      font: 24px/1 Ailerons;
+      color: ccddff;
+    }
+}
