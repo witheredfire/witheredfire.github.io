@@ -3,7 +3,7 @@
 <head>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width">
-   <link href=https://cdn.discordapp.com/attachments/799760218153418763/858079494367608832/ah.png rel=ICON type=image/X-icon/> 
+   <link href=https://cdn.discordapp.com/attachments/799760218153418763/858079494367608832/ah.png rel=ICON type=image/X-icon/>
    <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
 <body>
